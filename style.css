@@ -1,3 +1,66 @@
 h1 {
   color: red;
 }
+body {
+	background: lightgrey;
+	font-family: 'Roboto Condensed', sans-serif;
+;
+}
+
+h1 {
+	color: lightpink;
+	font-size: 40px;
+	text-align: center;
+}
+
+h2	{
+	color: grey;
+}
+
+img{
+	width: 200px;
+}
+
+.box-pink {
+	background: lightgrey;
+}
+
+.box-global {
+	background: black;
+	padding: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.box-green {
+	background: green;
+	width: 100px;
+	height:100px;
+}
+.box-white {
+	background: white;
+	width: 100px;
+	height:100px;
+}
+.box-red {
+	background: red;
+	width: 100px;
+	height:100px;
+}
+
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
